@@ -11,7 +11,6 @@ This is an educational project intended for learning and practice with React, Vi
 - Built with React 18 and Vite for optimal performance
 - Clean and modern user interface
 
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -21,47 +20,18 @@ This is an educational project intended for learning and practice with React, Vi
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/react-crypto-app.git
+   git clone https://github.com/brhuman/react-crypto-app
    cd react-crypto-initial
-   ```
 
 2. **Install dependencies**
-   ```bash
    # Install backend dependencies
    npm install
+   node server.js
    
    # Install frontend dependencies
    cd frontend
    npm install
-   cd ..
-   ```
-
-### Running the Application
-
-1. **Start the backend server** (from the root directory)
-   ```bash
-   npm start
-   ```
-   The backend server will start on `http://localhost:3000`
-
-2. **Start the frontend development server** (in a new terminal)
-   ```bash
-   cd frontend
    npm run dev
-   ```
-   The frontend will be available at `http://localhost:5173`
-
-## 🛠️ Build for Production
-
-To create a production build of the application:
-
-```bash
-cd frontend
-npm run build
-```
-
-The build artifacts will be stored in the `frontend/dist/` directory.
 
 ## 🧪 Technologies Used
 
